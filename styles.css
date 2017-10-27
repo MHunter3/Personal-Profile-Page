@@ -152,7 +152,7 @@ footer ul li {
 }
 
 a.social {
-  display: inline-show;
+  display: inline;
   text-indent: -9999px;
   margin-left: 5px;
   width: 30px;
@@ -165,17 +165,17 @@ a.social {
 
 a.twitter {
   background-image: url(images/twitter.svg);
-  background-color: #4635AD;
+  background-color: #33ccff;
 
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
-  background-color: #4635AD;
+  background-color: #0000ff;
 
 }
 a.github {
   background-image: url(images/github.svg);
-  background-color: #4635AD
+  background-color: #6600cc
 
 }
 
@@ -198,7 +198,7 @@ a.social:hover {
       display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: center;
       margin: 0 auto;
   }
 
